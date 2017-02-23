@@ -12,6 +12,8 @@ script:
 
 before_deploy:
 - $(python version.py)
+- export DEPLOY="false"
+- if [ "$APPVERSION" == "master" ]; then export DEPLOY="true"; fi
 deploy:
   provider: gae
   skip_cleanup: true
@@ -20,4 +22,5 @@ deploy:
   version: $APPVERSION
   on:
     all_branches: true
-  no_promote: True
+  no_promote: true
+  default: $DEPLOY
