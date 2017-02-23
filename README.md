@@ -2,5 +2,5 @@
 
 # Sample of how to deploy from Travis CI and run an end-to-end test
 
-Please see the [master branch](https://github.com/googlecloudplatform/continuous-deployment-demo) for a complete README.
+Please see the [master branch](https://github.com/googlecloudplatform/continuous-deployment-demo) for a complete README
 
