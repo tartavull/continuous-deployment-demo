@@ -14,6 +14,6 @@ deploy:
   skip_cleanup: true
   keyfile: client-secret.json
   project: neuromancer-seung-import
-  default: true
+  version: $TRAVIS_BRANCH
   on:
     all_branches: true
