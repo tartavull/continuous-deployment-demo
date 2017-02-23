@@ -4,3 +4,4 @@
 
 Please see the [master branch](https://github.com/googlecloudplatform/continuous-deployment-demo) for a complete README
 
+version 2
